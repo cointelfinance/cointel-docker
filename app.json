@@ -1,0 +1,17 @@
+{
+  "name": "cointel-docker",
+  "stack": "container",
+  "description": "Cointel Docker Image.",
+  "keywords": [
+    "r",
+    "plumber"
+  ],
+  "repository": "https://github.com/cointelfinance/cointel-docker",
+  "logo": "https://github.com/cointelfinance/cointel-docker/raw/master/logo.png",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
