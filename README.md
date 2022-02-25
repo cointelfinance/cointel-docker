@@ -1,15 +1,12 @@
-# Cointel's API on Heroku!
+# Cointel's DockerHub!
 
-Check it Out! https://cointel-api.herokuapp.com/__docs__/
-
-[![Deployed](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-
+Check it Out! https://hub.docker.com/u/cointelfinance
 
 ```mermaid
 flowchart LR
-A[3rd Party APIs] --> B(5 APIs Sources)
-B --> C{Cointel API}
-C -->|wallet aggregation| D[Aggregate wallets across 6 networks]
-C -->|tax assessment| E[Assess various tax situations across wallets]
+A[Cointel Repo] --> B(Cointel API)
+B --> C{Cointel Docker}
+C -->|BI Integration| D[Tableau]
+C -->|BI Integration| E[Looker]
+C -->|BI Integration| F[Power BI]
 ```
