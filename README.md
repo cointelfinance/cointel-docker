@@ -1,4 +1,4 @@
-# Cointel's DockerHub!
+# Cointel's DockerHub
 
 Check it Out! https://hub.docker.com/u/cointelfinance
 
